@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<head>
+<meta charset="UTF-8">
+<title>portfolio</title>
+<link rel="stylesheet" type="text/css" href="css/index.css">
+<script type="text/javascript" src="js/jquery-3.6.0.min.js"></script>
+<script type="text/javascript" src="js/index.js"></script>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-5HX99BXGB4"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-5HX99BXGB4');
+</script>
+</head>
+<body id="body" onselectstart="return false;">
+	<div id="particles-js">
+		<script type="text/javascript" src="js/particles.js"></script>
+		<script type="text/javascript" src="js/set.js"></script>
+	</div>
+	<button id="shiori-box" class="shiori">
+		<div id="title">
+			<p class="titlep">
+				portfolio
+			</p>
+		</div>
+	</button>
+	<div class="menu-box">
+		<ul class="menu hide">
+			<li id="menu-sercret"></li>
+			<li id="menu-first"><a class="touch" href="#body">トップ</a></li>
+			<li><a class="touch" href="#slash-02">プロフィール</a></li>
+			<li id="font-normal"><a class="touch" href="#slash-03">執筆実績</a></li>
+			<li id="menu-last"><a class="touch" href="#slash-04">コンタクト</a></li>
+		</ul>
+	</div>
+<!-- 背景スラッシュ-->
+	<div id="slash-00">
+	</div>
+	<div id="slash-01" class="box-Adjustment">
+		<div id="box-001" class="content-box animation">
+			<h2 class="h2-title font-normal top-normmal">記事執筆承ります</h2>
+			<h2 class="h2-title font-normal top-sumaho">記事執筆<br>承ります</h2>
+		</div>
+	</div>
+
+	<div id="slash-02">
+		<div id="box-002" class="content-box font-white animation">
+			<h2 class="h2-title font-adjustment">プロフィール</h2>
+			<p class="sentence"> 1年半Web製作会社にてHTMLコーダーを担当<br>
+				2018年よりフリーライターとして活動中
+			</p>
+		</div>
+	</div>
+	<div id="slash-03">
+		<div id="box-003" class="content-box animation">
+			<h2 class="h2-title font-normal">筆者情報</h2>
+			<div class="itembox">
+				<div class="item openModal001">
+					<img src="./img/achievement-005.jpg">
+					<div class="member-name">
+						<div class="name-box"><p class="line-height">活動理念</p></div>
+					</div>
+				</div>
+				<div class="item openModal002">
+					<img src="./img/achievement-002.jpg">
+					<div class="member-name">
+						<div class="name-box"><p class="line-height">実績</p></div>
+					</div>
+				</div><!--
+				<div class="item link">
+					<a href="https://comori-portfolio.com/wp">
+					<img src="./img/achievement-006.jpg">
+					<div class="member-name">
+						<div class="name-box"><p class="line-height">ブログ</p></div>
+					</div>
+					</a>
+				</div>-->
+			</div>
+<!-- モーダルエリアここから -->
+			<section id="modalArea001" class="modalArea">
+  				<div id="modalBg001" class="modalBg"></div>
+ 				<div class="modalWrapper">
+    				<div class="modalContents">
+    					<h1>活動理念</h1>
+      					<div class="modalContents-box">
+      						<img src="./img/rinen.jpg">
+      						<p>『シンプルさ×想い×コンセプト』<br><br>
+      							シンプルであることは、情報に溢れた社会を生きる私たちにとって重要な課題のひとつです。<br>
+      							一方で、必要な情報だけを詰め込んだコンテンツはどこか味気なく感じられます。<br><br>
+      							これは制作者の想い・コンセプトが適切に伝わっていないからだと考えます。<br>
+										そこで私は、どの視点から発信された言葉なのかに注目しました。<br>
+										これにより、制作側の声がより顧客に届くよう設計します。<br><br>
+										制作側の意図を正確に捉え、顧客に適切に届けられるWebサイトを制作することが、私の目標であり理念です。
+      					</div>      					
+    				</div>
+    				<div id="closeModal001" class="closeModal">
+      					×
+    				</div>
+  				</div>
+  			</section>
+  			<section id="modalArea002" class="modalArea">
+  				<div id="modalBg002" class="modalBg"></div>
+ 				<div class="modalWrapper">
+    				<div class="modalContents">
+    					<h1>活動歴</h1>
+      					<div class="modalContents-box">
+      						<img src="./img/zisseki.jpg">
+      						<p>2018年以降、車・アプリ・メンズエステなど、複数のジャンルで100記事以上の記事を執筆。<br><br>
+      							簡単なWebサイトの制作やワードプレスの導入も対応可能です。※当サイトは筆者制作<br><br>
+      							現在学んでいること:PHP/イラスト<br><br>
+      					</div>
+    				</div>
+    				<div id="closeModal002" class="closeModal">
+      					×
+    				</div>
+  				</div>
+  			</section>
+		</div>
+	</div>
+	<div id="slash-04">
+		<div id="box-004" class="content-box font-white animation">
+			<h2 class="h2-title">コンタクト</h2>
+			<p class="sentence">ご依頼は下記アドレスまでご連絡ください。<br>
+			</p>
+		</div>
+	</div>
+	<div id="slash-05">
+		<p class="copyright">© 2021 Y.K</p>
+	</div>
+</body>
+
+</html>
