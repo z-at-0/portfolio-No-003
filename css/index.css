@@ -196,7 +196,7 @@ li,a{
 #slash-05{
 	display: block;
 	position: relative;
-	z-index: 4;
+	z-index: 3;
 	background-color: #402f2f;
 }
 .copyright{
