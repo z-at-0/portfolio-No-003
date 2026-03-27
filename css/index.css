@@ -526,16 +526,22 @@ button {
 		padding-bottom: 50px;
 	}
 	.font-adjustment{
-		font-size: 5em;
+		font-size: 3em;
 	}
 	#box-003 {
 		transform: none;
 		width: 100%;
 	}
+	#box-003 h2 {
+		font-size: 48px;
+	}
 	#box-004 {
 		transform: none;
 		width: 100%;
 		padding-top: 44px;
+	}
+	#box-004 h2 {
+		font-size: 48px;
 	}
 	#box-004 p {
 		margin-bottom: 0;
@@ -651,6 +657,7 @@ opacity: 0;
 	}
 	#box-001 h2 {
 		margin: 0;
+		font-size: 48px;
 	}
 	#slash-02 {
 		margin-top: 0;
